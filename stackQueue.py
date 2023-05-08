@@ -1,3 +1,6 @@
+#Fabrizio Ferrari Roela de Oliveira Cesar - 166685
+#Luis Felipe Pires Gomes - 165601
+
 import queue
 
 def adicionar_operacao(fila_operacoes):
