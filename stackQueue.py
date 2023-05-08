@@ -7,9 +7,11 @@ def adicionar_operacao(fila_operacoes):
     print("3 - Multiplicacao")
     print("4 - Divisao")
     
+    # entrada de ususario
     operacao = input("Selecione uma operacao: ")
     valores = input("Digite os valores a serem operados (x,y): ")
     
+     # valores na fila
     fila_operacoes.put((int(operacao), [int(v) for v in valores.split(",")]))
 
 def executar_proxima_operacao(fila_operacoes):
